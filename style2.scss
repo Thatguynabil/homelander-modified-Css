@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+background-image:url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+}
+.hero-p{ 
+    font-size: 101px;
+    margin-top: 94px;
+    margin-bottom: -143px;
+    text-align: center;
+}
+
+.container{
+width: 61%;
+    margin: 24%;
+    background-color: white;
+    padding: 2em 4em 2em 13em;
+    display: flex;
+    border-radius: 10px;
+    gap: 100px;
+    /* align-content: center; */
+    position: relative;
+    margin-left: 40px;
+    font-size: larger;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    gap: 20%;
+    
+
+.links{
+    display: flex;
+    gap: 10px;
+    text-decoration-color: $btn-color;
+}
+
+a {
+    text-decoration: none;
+    color: #fcf9f9;
+}
+}
+
+$btn-color:blue;
+button {
+    background-color: $btn-color;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+input {
+    border: none;
+}
+.container2{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    gap: 60px;
+    background-color: white;
+}
+.searchbar{
+position:fixed;   
+}
+
+
+@media (max-width: 600px) {
+  .container{
+ width: 90%;
+    margin: 20%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+    /* align-content: center; */
+    position: relative;
+    margin-left: auto;
+    
+}
+
+.container button {
+    font-size: 30px;
+}
+}
+
+@media(max-width:1440){
+.container{
+ width: 71%;
+        margin: 27%;
+        background-color: white;
+        padding: 15px;
+        display: flex;
+        border-radius: 10px;
+        gap: 10px;
+        /* align-content: center; */
+        position: relative;
+        margin-left: 20%;
+    }
+}
+
+
+@media(max-width:1024){
+.container{
+width: 71%;
+        margin: 27%;
+        background-color: white;
+        padding: 15px;
+        display: flex;
+        border-radius: 10px;
+        gap: 10px;
+        /* align-content: center; */
+        position: relative;
+        margin-left: 17%;
+    }
+}
+.div1{
+    color: grey;
+    font-size: 30px;
+}
+.div2{
+    color: grey;
+    font-size: 30px;
+}
+.div3{
+    color: grey;
+    font-size: 30px;
+}
