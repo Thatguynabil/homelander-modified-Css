@@ -1,0 +1,31 @@
+{
+  "houses": [
+    {
+      "location": "Garki Area 2-updated",
+      "type": "apartment",
+      "features": "1 Living Room, 2 Bedrooms, Fully Fitted Kitchen",
+      "price": 25000000,
+      "displayPrice": "25M",
+      "img": "https://images.unsplash.com/photo-1598228723793-52759bba239c?q=80&w=774&auto=format&fit=crop",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "location": "Maitama",
+      "type": "duplex",
+      "features": "3 Living Rooms, 4 Bedrooms, Guest House, Fully Fitted Kitchen",
+      "price": 900000000,
+      "displayPrice": "900M",
+      "img": "https://images.unsplash.com/photo-1605307350812-0a31b45eeb11?q=80&w=1160&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "location": "Luxury",
+      "type": "duplex",
+      "features": "2 Living Rooms, Swimming Pool, Fully Furnished",
+      "price": 1000000000,
+      "displayPrice": "1 Billion",
+      "img": "https://images.unsplash.com/photo-1643297550841-1386b3a10612?q=80&w=953&auto=format&fit=crop"
+    }
+  ]
+}
